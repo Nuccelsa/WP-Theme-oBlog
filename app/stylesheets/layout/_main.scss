@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    margin: 2em 0;
+    justify-content: space-between;
+
+    & .post {
+        width: 75%;
+        order: 2;
+    }
+
+    & .sidebar {
+        width: 20%;
+        order: 1;
+    }
+}
