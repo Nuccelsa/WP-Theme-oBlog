@@ -45,7 +45,9 @@ if (!function_exists('oblog_register_sidebars')) {
                 'id'            => 'primary',
                 'name'          => 'Barre latérale principale',
                 'description'   => 'Affichage de widget sur le flanc du site',
-                'class'         => 'sidebar'
+                'class'         => 'sidebar',
+                'before_widget' => '<h2>',
+                'after_widget'  => '</h2>'
             )
         );
     }

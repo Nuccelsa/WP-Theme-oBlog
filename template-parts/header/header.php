@@ -7,12 +7,9 @@
 
     </div>
     <div class="header__tools">
-        <div class="search">
-            <form action="" class="search__form">
-                <label for="search"><i class="fa fa-search" aria-hidden="true"></i></label>
-                <input type="text" name="search" id="search" class="search__field" placeholder="Rechercher">
-            </form>
-        </div>
+
+        <?php get_search_form(); ?>
+
         <a href="#" class="action-button">S'abonner</a>
     </div>
 </header>

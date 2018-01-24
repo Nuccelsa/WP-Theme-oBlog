@@ -7,6 +7,6 @@
     </div>
     <div class="copyright">
         <h4 class="copyright__title"><?php bloginfo('name'); ?></h4>
-        <p class="copyright__text">copyright 2018 - The oClock Demo blog for students</p>
+        <p class="copyright__text">copyright <?php echo date('Y'); ?> - <?php bloginfo('description'); ?></p>
     </div>
 </footer>
